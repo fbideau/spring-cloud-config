@@ -1,6 +1,6 @@
 calabrio:
   auth:
     url:
-      authorize: https://dev-425391.okta.com/oauth2/default/v1/authorize
-      token: https://dev-425391.okta.com/oauth2/default/v1/token
+      authorize: https://calabrio.mytestrun.com:443/openam/oauth2/authorize
+      token: https://calabrio.mytestrun.com/openam/oauth2/access_token
       redirect: http://localhost:8081/authorize/tokensvc/token/callback
